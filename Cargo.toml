@@ -35,9 +35,6 @@ panic = "abort"
 codegen-units = 1
 lto = "fat"
 
-[patch.crates-io]
-op-alloy-protocol = { git = "https://github.com/alloy-rs/op-alloy", branch = "rf/fix/use-native-u64" }
-
 [workspace.dependencies]
 # Workspace
 kona-client = { path = "bin/client", version = "0.1.0" }
@@ -113,5 +110,6 @@ alloy-transport-http = { version = "0.3", default-features = false }
 alloy-eips = { version = "0.3", default-features = false }
 alloy-rpc-client = { version = "0.3", default-features = false }
 alloy-node-bindings = { version = "0.3", default-features = false }
-op-alloy-consensus = { version = "0.2", default-features = false }
-op-alloy-protocol = { version = "0.2", default-features = false }
+
+op-alloy-consensus = { git = "https://github.com/alloy-rs/op-alloy", rev = "cf27ad9", default-features = false }
+op-alloy-protocol = { git = "https://github.com/alloy-rs/op-alloy", rev = "cf27ad9", default-features = false }
