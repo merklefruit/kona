@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>Contributing - The Kona Book</title>
+    <title>Monorepo - The Kona Book</title>
 
 
     <!-- Custom HTML head -->
@@ -13,24 +13,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="icon" href="favicon.svg">
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/chrome.css">
-    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="icon" href="../favicon.svg">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/chrome.css">
+    <link rel="stylesheet" href="../css/print.css" media="print">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../fonts/fonts.css">
 
     <!-- Highlight.js Stylesheets -->
-    <link rel="stylesheet" href="highlight.css">
-    <link rel="stylesheet" href="tomorrow-night.css">
-    <link rel="stylesheet" href="ayu-highlight.css">
+    <link rel="stylesheet" href="../highlight.css">
+    <link rel="stylesheet" href="../tomorrow-night.css">
+    <link rel="stylesheet" href="../ayu-highlight.css">
 
     <!-- Custom theme stylesheets -->
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="../custom.css">
 
 </head>
 
@@ -38,7 +38,7 @@
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ferra" : "ferra";
         </script>
 
@@ -91,7 +91,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="rfc/intro.html"><strong aria-hidden="true">2.</strong> RFC</a></li><li class="chapter-item expanded "><a href="archives/intro.html"><strong aria-hidden="true">3.</strong> Archives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="archives/monorepo.html"><strong aria-hidden="true">3.1.</strong> Monorepo</a></li></ol></li><li class="chapter-item expanded "><a href="fpp-dev/intro.html"><strong aria-hidden="true">4.</strong> Fault Proof Program Development</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="fpp-dev/env.html"><strong aria-hidden="true">4.1.</strong> Environment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="fpp-dev/targets.html"><strong aria-hidden="true">4.1.1.</strong> Supported Targets</a></li></ol></li><li class="chapter-item expanded "><a href="fpp-dev/prologue.html"><strong aria-hidden="true">4.2.</strong> Prologue</a></li><li class="chapter-item expanded "><a href="fpp-dev/execution.html"><strong aria-hidden="true">4.3.</strong> Execution</a></li><li class="chapter-item expanded "><a href="fpp-dev/epilogue.html"><strong aria-hidden="true">4.4.</strong> Epilogue</a></li></ol></li><li class="chapter-item expanded "><a href="proof/intro.html"><strong aria-hidden="true">5.</strong> Proof SDK</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="proof/fpvm-backend.html"><strong aria-hidden="true">5.1.</strong> FPVM Backend</a></li><li class="chapter-item expanded "><a href="proof/custom-backend.html"><strong aria-hidden="true">5.2.</strong> Custom Backend</a></li><li class="chapter-item expanded "><a href="proof/exec-ext.html"><strong aria-hidden="true">5.3.</strong> kona-executor Extensions</a></li></ol></li><li class="chapter-item expanded "><a href="protocol/intro.html"><strong aria-hidden="true">6.</strong> Protocol Libraries</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="protocol/derive/intro.html"><strong aria-hidden="true">6.1.</strong> Derivation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="protocol/derive/providers.html"><strong aria-hidden="true">6.1.1.</strong> Custom Providers</a></li><li class="chapter-item expanded "><a href="protocol/derive/stages.html"><strong aria-hidden="true">6.1.2.</strong> Stage Swapping</a></li><li class="chapter-item expanded "><a href="protocol/derive/signaling.html"><strong aria-hidden="true">6.1.3.</strong> Signaling</a></li></ol></li><li class="chapter-item expanded "><a href="protocol/genesis/intro.html"><strong aria-hidden="true">6.2.</strong> Genesis</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="protocol/genesis/rollup-config.html"><strong aria-hidden="true">6.2.1.</strong> Rollup Config</a></li><li class="chapter-item expanded "><a href="protocol/genesis/system-config.html"><strong aria-hidden="true">6.2.2.</strong> System Config</a></li></ol></li><li class="chapter-item expanded "><a href="protocol/registry.html"><strong aria-hidden="true">6.3.</strong> Registry</a></li><li class="chapter-item expanded "><a href="protocol/interop.html"><strong aria-hidden="true">6.4.</strong> Interop</a></li><li class="chapter-item expanded "><a href="protocol/hardforks.html"><strong aria-hidden="true">6.5.</strong> Hardforks</a></li><li class="chapter-item expanded "><a href="protocol/protocol/intro.html"><strong aria-hidden="true">6.6.</strong> Protocol</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="protocol/protocol/block-info.html"><strong aria-hidden="true">6.6.1.</strong> BlockInfo</a></li><li class="chapter-item expanded "><a href="protocol/protocol/l2-block-info.html"><strong aria-hidden="true">6.6.2.</strong> L2BlockInfo</a></li><li class="chapter-item expanded "><a href="protocol/protocol/frames.html"><strong aria-hidden="true">6.6.3.</strong> Frames</a></li><li class="chapter-item expanded "><a href="protocol/protocol/channels.html"><strong aria-hidden="true">6.6.4.</strong> Channels</a></li><li class="chapter-item expanded "><a href="protocol/protocol/batches.html"><strong aria-hidden="true">6.6.5.</strong> Batches</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="examples/intro.html"><strong aria-hidden="true">7.</strong> Examples</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="examples/load-a-rollup-config.html"><strong aria-hidden="true">7.1.</strong> Load a Rollup Config</a></li><li class="chapter-item expanded "><a href="examples/frames-to-batch.html"><strong aria-hidden="true">7.2.</strong> Transform Frames to a Batch</a></li><li class="chapter-item expanded "><a href="examples/batch-to-frames.html"><strong aria-hidden="true">7.3.</strong> Transform a Batch into Frames</a></li><li class="chapter-item expanded "><a href="examples/new-l1-block-info-tx-hardfork.html"><strong aria-hidden="true">7.4.</strong> Create a new L1BlockInfoTx Hardfork Variant</a></li></ol></li><li class="chapter-item expanded "><a href="glossary.html"><strong aria-hidden="true">8.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="CONTRIBUTING.html" class="active"><strong aria-hidden="true">9.</strong> Contributing</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../rfc/intro.html"><strong aria-hidden="true">2.</strong> RFC</a></li><li class="chapter-item expanded "><a href="../archives/intro.html"><strong aria-hidden="true">3.</strong> Archives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../archives/monorepo.html" class="active"><strong aria-hidden="true">3.1.</strong> Monorepo</a></li></ol></li><li class="chapter-item expanded "><a href="../fpp-dev/intro.html"><strong aria-hidden="true">4.</strong> Fault Proof Program Development</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../fpp-dev/env.html"><strong aria-hidden="true">4.1.</strong> Environment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../fpp-dev/targets.html"><strong aria-hidden="true">4.1.1.</strong> Supported Targets</a></li></ol></li><li class="chapter-item expanded "><a href="../fpp-dev/prologue.html"><strong aria-hidden="true">4.2.</strong> Prologue</a></li><li class="chapter-item expanded "><a href="../fpp-dev/execution.html"><strong aria-hidden="true">4.3.</strong> Execution</a></li><li class="chapter-item expanded "><a href="../fpp-dev/epilogue.html"><strong aria-hidden="true">4.4.</strong> Epilogue</a></li></ol></li><li class="chapter-item expanded "><a href="../proof/intro.html"><strong aria-hidden="true">5.</strong> Proof SDK</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../proof/fpvm-backend.html"><strong aria-hidden="true">5.1.</strong> FPVM Backend</a></li><li class="chapter-item expanded "><a href="../proof/custom-backend.html"><strong aria-hidden="true">5.2.</strong> Custom Backend</a></li><li class="chapter-item expanded "><a href="../proof/exec-ext.html"><strong aria-hidden="true">5.3.</strong> kona-executor Extensions</a></li></ol></li><li class="chapter-item expanded "><a href="../protocol/intro.html"><strong aria-hidden="true">6.</strong> Protocol Libraries</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../protocol/derive/intro.html"><strong aria-hidden="true">6.1.</strong> Derivation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../protocol/derive/providers.html"><strong aria-hidden="true">6.1.1.</strong> Custom Providers</a></li><li class="chapter-item expanded "><a href="../protocol/derive/stages.html"><strong aria-hidden="true">6.1.2.</strong> Stage Swapping</a></li><li class="chapter-item expanded "><a href="../protocol/derive/signaling.html"><strong aria-hidden="true">6.1.3.</strong> Signaling</a></li></ol></li><li class="chapter-item expanded "><a href="../protocol/genesis/intro.html"><strong aria-hidden="true">6.2.</strong> Genesis</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../protocol/genesis/rollup-config.html"><strong aria-hidden="true">6.2.1.</strong> Rollup Config</a></li><li class="chapter-item expanded "><a href="../protocol/genesis/system-config.html"><strong aria-hidden="true">6.2.2.</strong> System Config</a></li></ol></li><li class="chapter-item expanded "><a href="../protocol/registry.html"><strong aria-hidden="true">6.3.</strong> Registry</a></li><li class="chapter-item expanded "><a href="../protocol/interop.html"><strong aria-hidden="true">6.4.</strong> Interop</a></li><li class="chapter-item expanded "><a href="../protocol/hardforks.html"><strong aria-hidden="true">6.5.</strong> Hardforks</a></li><li class="chapter-item expanded "><a href="../protocol/protocol/intro.html"><strong aria-hidden="true">6.6.</strong> Protocol</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../protocol/protocol/block-info.html"><strong aria-hidden="true">6.6.1.</strong> BlockInfo</a></li><li class="chapter-item expanded "><a href="../protocol/protocol/l2-block-info.html"><strong aria-hidden="true">6.6.2.</strong> L2BlockInfo</a></li><li class="chapter-item expanded "><a href="../protocol/protocol/frames.html"><strong aria-hidden="true">6.6.3.</strong> Frames</a></li><li class="chapter-item expanded "><a href="../protocol/protocol/channels.html"><strong aria-hidden="true">6.6.4.</strong> Channels</a></li><li class="chapter-item expanded "><a href="../protocol/protocol/batches.html"><strong aria-hidden="true">6.6.5.</strong> Batches</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../examples/intro.html"><strong aria-hidden="true">7.</strong> Examples</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../examples/load-a-rollup-config.html"><strong aria-hidden="true">7.1.</strong> Load a Rollup Config</a></li><li class="chapter-item expanded "><a href="../examples/frames-to-batch.html"><strong aria-hidden="true">7.2.</strong> Transform Frames to a Batch</a></li><li class="chapter-item expanded "><a href="../examples/batch-to-frames.html"><strong aria-hidden="true">7.3.</strong> Transform a Batch into Frames</a></li><li class="chapter-item expanded "><a href="../examples/new-l1-block-info-tx-hardfork.html"><strong aria-hidden="true">7.4.</strong> Create a new L1BlockInfoTx Hardfork Variant</a></li></ol></li><li class="chapter-item expanded "><a href="../glossary.html"><strong aria-hidden="true">8.</strong> Glossary</a></li><li class="chapter-item expanded "><a href="../CONTRIBUTING.html"><strong aria-hidden="true">9.</strong> Contributing</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -154,13 +154,13 @@
                     <h1 class="menu-title">The Kona Book</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         <a href="https://github.com/op-rs/kona" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/op-rs/kona/edit/main/book/src/CONTRIBUTING.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/op-rs/kona/edit/main/book/src/archives/monorepo.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
 
@@ -257,47 +257,146 @@
 }
 
 </style>
-<h1 id="contributing"><a class="header" href="#contributing">Contributing</a></h1>
-<p>Thank you for wanting to contribute! Before contributing to this repository, please read through this document and
-discuss the change you wish to make via issue.</p>
-<h2 id="dependencies"><a class="header" href="#dependencies">Dependencies</a></h2>
-<p>Before working with this repository locally, you'll need to install several dependencies:</p>
+<h1 id="monorepo-project"><a class="header" href="#monorepo-project">Monorepo Project</a></h1>
+<p>This is a document outlining merging multiple external
+repositories into <code>kona</code> to create a rust monorepo for Optimism.</p>
+<h2 id="provenance"><a class="header" href="#provenance">Provenance</a></h2>
+<p>Let's rewind the clock to when <code>kona</code> was just being started
+in the spring of 2024. What little optimism rust types existed
+were siloed in applications like <code>op-reth</code> and <code>revm</code>. Library
+code that could have been re-used was unfortunately placed in
+an <code>std</code> environment that <code>kona</code> cannot use because the kona
+fault proof program is built for a minimal instruction set.</p>
+<p>Effectively, <code>kona</code> needed a bunch of Optimism-specific and
+slightly-modified Ethereum types that were available in a
+<code>no_std</code> environment.</p>
+<p>As development started, types were defined in <code>kona</code>. Mostly
+jammed into the <code>kona-derive</code> crate for use in derivation, these
+types were now being duplicated across a number of rust repos just
+to support <code>no_std</code>.</p>
+<p>Enter <code>op-alloy</code>. The first effort to de-duplicate types between
+<code>reth</code>, <code>revm</code>, and <code>kona</code> (as well as periphery applications like <code>magi</code>).
+Rather than keeping types in <code>kona</code>, <code>op-alloy</code> was introduced as a shared
+place for <code>no_std</code> compatible optimism rust types. This worked
+well as a common place to contribute and decoupled the rapid
+development in <code>kona</code> from the more stable definition of Optimism
+rust types.</p>
+<p>Fast forward to 2025, <a href="https://specs.optimism.io/interop/overview.html">interop</a>
+started seriously picking up momentum as a critical project
+in the Optimism Rust world. Interop introduces a whole host
+of new Optimism-specific types that really should live in a
+shared library. But <code>op-alloy</code> was already becoming quite large
+beyond the minimal, de-duplicated set of types originally intended.</p>
+<p>This led to OP folks splitting out Optimism-specific types from
+<code>op-alloy</code> into a new repo called <code>maili</code>. What was not foreseen
+was the grievance with yet-another level in dependency chain for
+Optimism rust projects. Now, downstream optimism rust projects
+could have to import all of these crates just to construct an
+OP Stack service:</p>
 <ul>
-<li><a href="https://www.docker.com/">Docker</a> for cross-compilation.</li>
-<li><a href="https://github.com/casey/just">just</a> for our command-runner scripts.</li>
-<li>The <a href="https://rustup.rs/">Rust toolchain</a></li>
-<li>The <a href="https://go.dev/dl/">Golang toolchain</a></li>
+<li><code>op-alloy</code></li>
+<li><code>maili</code></li>
+<li><code>op-revm</code></li>
+<li><code>op-reth</code></li>
+<li><code>kona</code></li>
 </ul>
-<p><strong>Optional</strong></p>
+<p>And those are just the Optimism-specific crates, let alone
+Ethereum crates like <code>alloy</code>.</p>
+<h2 id="why"><a class="header" href="#why">Why?</a></h2>
+<p>The current dependency chain is ever growing.
+A small change in <code>op-alloy</code> cascades into the following.</p>
 <ul>
-<li><a href="https://github.com/rust-lang/mdBook">mdbook</a> to contribute to the <a href="/">book</a>
-<ul>
-<li><a href="https://github.com/sgoudham/mdbook-template">mdbook-template</a></li>
-<li><a href="https://github.com/badboy/mdbook-mermaid">mdbook-mermaid</a></li>
+<li>Release <code>op-alloy</code> crates</li>
+<li>Update <code>maili</code> with <code>op-alloy</code> version and changes.</li>
+<li>Release <code>maili</code> crates.</li>
+<li>Update <code>kona</code> to work with both <code>op-alloy</code> and <code>maili</code> crates.</li>
+<li>Release <code>kona</code>.</li>
+<li>If something breaks in <code>kona</code> or downstream consumers, repeat.</li>
 </ul>
-</li>
-</ul>
-<h2 id="pull-request-process"><a class="header" href="#pull-request-process">Pull Request Process</a></h2>
-<ol>
-<li>Before anything, <a href="https://github.com/op-rs/kona/issues/new">create an issue</a> to discuss the change you're
-wanting to make, if it is significant or changes functionality. Feel free to skip this step for trivial changes.</li>
-<li>Once your change is implemented, ensure that all checks are passing before creating a PR. The full CI pipeline can
-be run locally via the <code>justfile</code>s in the repository.</li>
-<li>Make sure to update any documentation that has gone stale as a result of the change, in the <code>README</code> files, the [book][book],
-and in rustdoc comments.</li>
-<li>Once you have sign-off from a maintainer, you may merge your pull request yourself if you have permissions to do so.
-If not, the maintainer who approves your pull request will add it to the merge queue.</li>
-</ol>
+<p>To iterate faster without needing to manage releases or change
+dependencies into git refs, this doc proposes a monorepo structure
+that pulls <code>maili</code> into <code>kona</code>, while retaining <code>maili</code> crate
+names <strong>and</strong> versioning.</p>
+<p>We propose gone are the days of releasing a single version for
+all crates. With a larger, more extensive <code>kona</code> monorepo, crates
+will need to manage their own semver.</p>
+<p>To re-iterate: the key takeaway here is current downstream consumers
+of <code>maili</code> crates <em>will not have to change a thing</em>. Crates pulled
+into <code>kona</code> will still be published under <code>maili-</code> prefixed crate
+names. How this is managed while keeping the <code>kona-</code> prefix crate
+naming consistent is discussed below.</p>
+<h2 id="proposed-repository-structure"><a class="header" href="#proposed-repository-structure">Proposed Repository Structure</a></h2>
+<p>The new repository structure would look as follows.</p>
+<pre><code>crates/
+  proof/
+    mpt/
+    executor/
+    preimage/
+    fpvm/
+    fpvm-proc/
+    proof
+    proof-interop/
+  protocol/
+    derive/
+    driver/
+    interop/
+    genesis/   &lt;-- Has Maili Shadow
+    registry/  &lt;-- Has Maili Shadow
+    protocol/  &lt;-- Has Maili Shadow
+  services/
+    rpc/       &lt;-- Has Maili Shadow
+    net/
+    providers-alloy/
+    providers-local/
+  utilities/
+    serde/     &lt;-- Has Maili Shadow
+  cli/
+    ..         # TODO
+</code></pre>
+<div class="mdbook-alerts mdbook-alerts-info">
+<p class="mdbook-alerts-title">
+  <span class="mdbook-alerts-icon"></span>
+  info
+</p>
+<p>Crates denoted with <code>&lt;-- Has Maili Shadow</code> are ported from <code>maili</code>,
+but contain a nested crate with the <code>maili-</code> prefix instead of <code>kona-</code>
+prefix. These crates re-export their <code>kona-</code> equivalent crates. This
+allows downstream users to not need to change their dependencies to
+keep using <code>maili-</code> crates! Eventually once the kona monorepo matures,
+and downstream consumers use <code>kona-</code> crates instead of <code>maili-</code>, these
+can be removed.</p>
+</div>
+<h4 id="maili-shadow-example"><a class="header" href="#maili-shadow-example">Maili Shadow Example</a></h4>
+<p>Let's look at <code>crates/protocol/genesis</code>.</p>
+<p>This crate will have a <code>Cargo.toml</code> that defines itself as <code>kona-genesis</code>.</p>
+<p>The contents of the <code>crates/protocol/genesis</code> directory will be</p>
+<pre><code>../genesis/
+  README.md
+  Cargo.toml  &lt;-- package.name = "kona-genesis"
+  src/
+    ..   &lt;-- current contents of `maili-genesis`, ported
+  maili/
+    Cargo.toml  &lt;-- package.name = "maili-genesis"
+    src/
+      lib.rs  &lt;-- Re-exports `kona-genesis`
+</code></pre>
+<p>This structure allows us to seamlessly remain backwards compatible,
+while being able to work in the new <code>kona-</code> crates without requiring
+heavy lifting to support <code>maili-</code> crates.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                        <a rel="prev" href="glossary.html" class="mobile-nav-chapters previous"
+                        <a rel="prev" href="../archives/intro.html" class="mobile-nav-chapters previous"
                             title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                             <i class="fa fa-angle-left"></i>
                         </a>
 
+                        <a rel="next prefetch" href="../fpp-dev/intro.html" class="mobile-nav-chapters next"
+                            title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -305,11 +404,15 @@ If not, the maintainer who approves your pull request will add it to the merge q
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                <a rel="prev" href="glossary.html" class="nav-chapters previous" title="Previous chapter"
+                <a rel="prev" href="../archives/intro.html" class="nav-chapters previous" title="Previous chapter"
                     aria-label="Previous chapter" aria-keyshortcuts="Left">
                     <i class="fa fa-angle-left"></i>
                 </a>
 
+                <a rel="next prefetch" href="../fpp-dev/intro.html" class="nav-chapters next" title="Next chapter"
+                    aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </nav>
 
         </div>
@@ -322,17 +425,17 @@ If not, the maintainer who approves your pull request will add it to the merge q
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="mermaid.min.js"></script>
-        <script src="mermaid-init.js"></script>
+        <script src="../mermaid.min.js"></script>
+        <script src="../mermaid-init.js"></script>
 
 
     </div>
